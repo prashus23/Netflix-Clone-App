@@ -1,9 +1,13 @@
 {
+  "homepage": "https://prashus23.github.io/Netflix-Clone-App",
   "name": "netflix-clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts star",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -28,5 +32,9 @@
     "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "vite": "^5.4.9"
-  }
+  },
+  "main": "eslint.config.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
